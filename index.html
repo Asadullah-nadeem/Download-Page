@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.3/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <div class="min-h-screen flex flex-col items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96 max-w-full">
+
+      <!-- Download Header -->
+      <div class="flex items-center justify-center text-2xl mb-6">
+        <i class="fas fa-file-download mr-2"></i> Download Page
+      </div>
+
+      <!-- Checkmark Circle -->
+      <div class="flex items-center justify-center mb-6">
+        <div class="rounded-full border-2 border-gray-300 p-6">
+          <i class="fas fa-check text-3xl"></i>
+        </div>
+      </div>
+
+      <!-- Download Progress -->
+      <div class="text-center font-medium mb-6">
+        Download - 2/2 files
+      </div>
+
+      <!-- File List -->
+      <div class="space-y-4 mb-4">
+        <div class="flex items-center justify-between">
+          <div>document-name.PDF</div>
+          <div>
+            <button class="bg-red-200 text-red-600 px-2 py-1 rounded">D</button>
+          </div>
+        </div>
+        <div class="flex items-center justify-between">
+          <div>document-name.PDF</div>
+          <div>
+            <button class="bg-red-200 text-red-600 px-2 py-1 rounded">D</button>
+          </div>
+        </div>
+        <div class="flex items-center justify-between bg-gray-200 p-2 rounded">
+          <span>https://www.figma.com/document-name.PDF</span>
+          <button class="bg-green-200 text-green-600 px-2 py-1 rounded">Copy</button>
+        </div>
+      </div>
+
+      <!-- Download Button -->
+      <div class="flex items-center justify-center">
+        <button class="bg-purple-600 text-white px-6 py-2 rounded w-full hover:bg-purple-700 transition-colors duration-200">DOWNLOAD PAGE</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
